@@ -3,7 +3,7 @@
 # The human-friendly name of the profile. Whenever you're asked for the profile
 # ID, it refers to the name of the profile file — in this case, "default".
 #
-name: "Junomedical"
+name: "Junomedical(3G)"
 
 #
 # The default profile will be the one shown when accessing the root URL of your
@@ -16,7 +16,7 @@ default: true
 # with a minimum value of 12, as only two scheduled tests per day are allowed.
 # To disabled repeated tests, simply remove this property from the profile.
 #
-# interval: 12
+interval: 12
 
 #
 # WebPageTest test parameters
@@ -39,18 +39,18 @@ parameters:
 budgets:
   -
     metric: firstPaint
-    max: 7000
+    max: 3000
     alerts: ["emailAlert","slackAlert"]
   -
     metric: loadTime
-    max: 15000
+    max: 10000
     alerts: ["emailAlert","slackAlert"]
   -
     metric: domInteractive
-    max: 9500
+    max: 500
     alerts: ["emailAlert","slackAlert"]
   -
     metric: TTFB
-    max: 5500
+    max: 500
     alerts: ["emailAlert", "slackAlert"]
 ---
