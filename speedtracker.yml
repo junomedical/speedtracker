@@ -1,9 +1,9 @@
 #
-#             ____                ________             __          
+#             ____                ________             __
 #            / __/__  ___ ___ ___/ /_  __/______ _____/ /_____ ____
 #           _\ \/ _ \/ -_) -_) _  / / / / __/ _ `/ __/  '_/ -_) __/
-#           ___/ .__/\__/\__/\_,_/ /_/ /_/  \_,_/\__/_/\_\\__/_/   
-#             /_/                                                  
+#           ___/ .__/\__/\__/\_,_/ /_/ /_/  \_,_/\__/_/\_\\__/_/
+#             /_/
 #                          https://speedtracker.org
 #
 
@@ -37,7 +37,7 @@
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-encryptionKey: "YOUR_ENCRYPTED_KEY"
+encryptionKey: "fa5844b142eea7f82f46"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -50,7 +50,7 @@ encryptionKey: "YOUR_ENCRYPTED_KEY"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
+wptKey: "d1034fec10f8f4a0751d663e8191392c778a0ad7ad6910b4c722a53e192f02db65fa"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -79,16 +79,16 @@ wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-#alerts:
-#  emailAlert:
-#    type: "email"
-#    recipients: ["ENCRYPTED_EMAIL_ADDRESS"]
-#  otherEmailAlert:
-#    type: "email"
-#    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
-#  slackAlert:
-#    type: "slack"
-#    hookUrl: "ENCRYPTED_SLACK_HOOK_URL"
-#    channel: "#speedtracker"
-#    username: "SpeedTracker"
-#    iconEmoji: ":grimacing:"
+alerts:
+ emailAlert:
+   type: "email"
+   recipients: ["b05f4bba1af0ade56e483d7dc19c7f092acd54dda43c15b8c526f0261c7058"]
+ # otherEmailAlert:
+ #   type: "email"
+ #   recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
+ slackAlert:
+   type: "slack"
+   hookUrl: "f8595eae00a7ebb828453b62c1dd7a2521db519caa361cfed522ee7e167c509b789b096f2dc6497ff9ebcef442126d69a091f4e51d1425d639af7c4d8a73f9b3b9f6c4408aadfd17cf7c321e9f0b"
+   channel: "#development"
+   username: "JunoSpeedTracker"
+   iconEmoji: ":zap:"
