@@ -83,9 +83,6 @@ alerts:
  emailAlert:
    type: "email"
    recipients: ["b05f4bba1af0ade56e483d7dc19c7f092acd54dda43c15b8c526f0261c7058"]
- # otherEmailAlert:
- #   type: "email"
- #   recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
  slackAlert:
    type: "slack"
    hookUrl: "f8595eae00a7ebb828453b62c1dd7a2521db519caa361cfed522ee7e167c509b789b096f2dc6497ff9ebcef442126d69a091f4e51d1425d639af7c4d8a73f9b3b9f6c4408aadfd17cf7c321e9f"
