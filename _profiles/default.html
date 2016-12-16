@@ -39,18 +39,18 @@ parameters:
 budgets:
   -
     metric: firstPaint
-    max: 7000
+    max: 700
     alerts: ["emailAlert","slackAlert"]
   -
     metric: loadTime
-    max: 15000
+    max: 500
     alerts: ["emailAlert","slackAlert"]
   -
     metric: domInteractive
-    max: 9500
+    max: 500
     alerts: ["emailAlert","slackAlert"]
   -
     metric: TTFB
-    max: 5500
+    max: 500
     alerts: ["emailAlert", "slackAlert"]
 ---

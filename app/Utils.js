@@ -39,14 +39,14 @@ const getDateRangeForPeriod = (period) => {
 }
 
 const getVideoFrameURL = (id, time) => {
-  let frame = leftPad(time / 100, 4)
+  let frame = leftPad(time, 6)
 
-  return `https://www.webpagetest.org/getfile.php?test=${id}&video=video_1&file=frame_${frame}.jpg`
+  return `https://www.webpagetest.org/getfile.php?test=${id}&video=video_1&file=ms_${frame}.jpg`
 }
 
 const leftPad = (input, length, pad) => {
   pad = pad || '0'
-  
+
   let inputStr = input.toString()
   let lengthDiff = length - inputStr.length
 

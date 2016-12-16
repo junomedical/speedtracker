@@ -27,13 +27,13 @@
   ```
   npm install
   ```
-  
+
 1. Start the Jekyll server
 
   ```
-  jekyll serve --watch --port SOME_PORT
+  npm run start
   ```
-  
+
 1. Start Webpack
 
   ```
@@ -45,7 +45,7 @@
   ```
   npm run build
   ```
-  
+
 ---
 
 ## License

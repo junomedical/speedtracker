@@ -4,7 +4,7 @@
   "description": "Website performance monitoring tool",
   "main": "index.js",
   "scripts": {
-    "start": "jekyll serve",
+    "start": "bundle exec jekyll serve",
     "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js -p",
     "watch": "./node_modules/webpack/bin/webpack.js --watch"
   },
