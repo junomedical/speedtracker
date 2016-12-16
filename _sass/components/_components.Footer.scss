@@ -5,6 +5,7 @@
   overflow: hidden;
   padding: 20px;
   text-align: center;
+  filter: invert(100%);
 
   a {
     color: dp-color('accent');
