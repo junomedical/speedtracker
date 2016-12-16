@@ -2,11 +2,12 @@
   overflow: scroll;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+  color: #e3e3e3;
 }
 
 .c-Filmstrip__item {
   display: inline-block;
-  
+
   & + & {
     margin-left: 10px;
   }
