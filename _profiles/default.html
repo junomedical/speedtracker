@@ -39,7 +39,7 @@ parameters:
 budgets:
   -
     metric: firstPaint
-    max: 7000
+    max: 5500
     alerts: ["emailAlert","slackAlert"]
   -
     metric: loadTime
@@ -51,6 +51,6 @@ budgets:
     alerts: ["emailAlert","slackAlert"]
   -
     metric: TTFB
-    max: 5500
+    max: 3500
     alerts: ["emailAlert", "slackAlert"]
 ---
